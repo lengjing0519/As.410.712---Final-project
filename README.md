@@ -6,7 +6,7 @@ BLAST might be the most well known one among all the MSA tools. In this case, al
 ## Functionality
 This MSA tool requires the user to input a fasta format file which should contain two sequences at least. The '>' annotation line shouldn't be eliminated. There would also include some basic parameters such as selecting the calculation method, the gap costs and so on.  
 
-The output would display the alignment result of all sequences, 
+The output would display the alignment result, score and p-value of all sequences.
 ## Description
 To achieve this goal, the MSA tool may utilize the following software technologies to carry out its functionality:
 
