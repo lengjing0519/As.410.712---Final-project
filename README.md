@@ -1,4 +1,4 @@
-# Design and Development of a Multiple Sequence Alignment Tool
+# Design and Development of a Mouse Gene family database
 ## Background
 Multiple sequence alignment (MSA) is a bioinformatics technique used to align three or more biological sequences simultaneously. It is employed to identify conserved regions, motifs, and functional domains across related sequences, which can provide insights into evolutionary relationships, protein structure, and function.  
 
