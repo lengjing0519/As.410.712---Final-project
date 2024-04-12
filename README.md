@@ -1,6 +1,9 @@
 # Design and Development of a Mouse Gene family database
 ## Background
-Gene families refer to a group of genes that share similar sequences and functions, typically evolving from a common ancestral gene. Members within a gene family are referred to as homologous genes. Based on the manner in which they arise, they can be further classified into orthologous genes and paralogous genes. Orthologous genes arise through speciation events, while paralogous genes are generated through gene duplication (Figure 1). Members of gene families often retain some common structures or functions, but they may also undergo differentiation and specialization to adapt to various biological functions and environmental requirements.  
+Gene families refer to a group of genes that share similar sequences and functions, typically evolving from a common ancestral gene. Members within a gene family are referred to as homologous genes. Based on the manner in which they arise, they can be further classified into orthologous genes and paralogous genes. Orthologous genes arise through speciation events, while paralogous genes are generated through gene duplication (Figure 1). Members of gene families often retain some common structures or functions, but they may also undergo differentiation and specialization to adapt to various biological functions and environmental requirements.   
+
+![Figure 1](https://github.com/lengjing0519/As.410.712---Final-project/blob/main/Figure1.jpg)
+##### Figure 1. Relationship between orthologous and paralogous genes.  
 
 The significance of gene families lies in providing crucial insights into the process of evolution. By comparing the sequences and functional changes among different members of gene families, scientists can understand the genomic evolutionary processes involved in adaptation to diverse environments and functions. Additionally, gene families may play important roles during evolution, such as providing new functions, increasing genomic diversity, and facilitating genetic variation.  
 
@@ -14,8 +17,14 @@ The human gene family data from HGNC (https://www.genenames.org) and the Mouse G
 ## Description
 To achieve this goal, the mouse gene family database may utilize the following software technologies to carry out its functionality (Figure 2):
 
+![Figure 2](https://github.com/lengjing0519/As.410.712---Final-project/blob/main/Figure2.jpg)
+##### Figure 2. Software components and their functions and interactions.  
+
 **HTML/CSS/JAVA -**  Provides a simple, user-friendly and interactive user interface for user’s input and visualization of the output after backend data generation. A HTML script to display the results on websites, probably a CSS script to modify the style and a JAVA script to add some useful interacting functions.  
 
 **CGI -** Receives the input from users and interacts with the MYSQL database to retrieve the corresponding results.  
 
 **SQL -** Stores the mouse gene family database and provide the necessary data for CGI script. It would consist of five tables: Gene family, human gene, mouse gene, homologous gene pairs and gene family members (Figure 3).  
+
+![Figure 3](https://github.com/lengjing0519/As.410.712---Final-project/blob/main/Figure3.jpg)
+##### Figure 3. The schema of Mouse gene family database.
