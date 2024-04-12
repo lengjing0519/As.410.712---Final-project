@@ -1,6 +1,6 @@
 # Design and Development of a Mouse Gene family database
 ## Background
-Multiple sequence alignment (MSA) is a bioinformatics technique used to align three or more biological sequences simultaneously. It is employed to identify conserved regions, motifs, and functional domains across related sequences, which can provide insights into evolutionary relationships, protein structure, and function.  
+Gene families refer to a group of genes that share similar sequences and functions, typically evolving from a common ancestral gene. Members within a gene family are referred to as homologous genes. Based on the manner in which they arise, they can be further classified into orthologous genes and paralogous genes. Orthologous genes arise through speciation events, while paralogous genes are generated through gene duplication (Figure 1). Members of gene families often retain some common structures or functions, but they may also undergo differentiation and specialization to adapt to various biological functions and environmental requirements.  
 
 BLAST might be the most well known one among all the MSA tools. In this case, all I want to do is to reproduce a classic mutiple sequence alignment tool website just like BLAST. However, allowing for the fact that the server memory might be limited, the tool can only be used to achieve the sequence vs sequence alignment rather than the sequence vs database analysis.  
 ## Functionality
